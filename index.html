@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timer &#9200</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- date =(11/4/2023) -->
+
+<body>
+    <div class="head_heading">
+        <h1>
+            <SPAN>T</SPAN>
+            <SPAN>i</SPAN>
+            <SPAN>m</SPAN>
+            <SPAN>e</SPAN>
+            <SPAN>r</SPAN>
+        </h1>
+        <!-- start button      -->
+        <div class="btn">
+            <button class="button1" id="button_start">
+                START
+            </button>
+        </div>
+        <!-- watch design -->
+        <div class="watch">
+            <div class="Watch-design">
+                <div class="btn1">
+                    <button class="button2" id="button_reset">R</button>
+                </div>
+                <span class="tick">✓</span>
+                <span class="colon">&#720</span>
+                <span class="timesup" id="timesup"></span>
+                <div class="neno">
+                    <div class="neno_design" id="neno">00</div>
+                    <p>ms</p>
+                </div>
+                <div class="second">
+                    <input type="text" class="second_design" onclick="sec_input()" id="second" maxlength="2" placeholder="SS">
+                    <p>S</p>
+                </div>
+                <div class="minut">
+                    <input type="text" class="minut_design" onclick="min_input()" id="minuts" maxlength="2" placeholder="MM">
+                    <p>M</p>
+                </div>
+            </div>
+        </div>
+        <!-- stop      -->
+        <div class="btn">
+            <button class="button1" id="button_stop">
+                STOP
+            </button>
+        </div>
+        <div>
+            <h6>Copy right 2023 by MUHAMMAD ANAS AHMED © </h6>
+        </div>
+    </div>
+
+    <script src="javascript/app.js"></script>
+</body>
+
+</html>
